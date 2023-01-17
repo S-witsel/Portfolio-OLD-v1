@@ -1,0 +1,122 @@
+header{
+    background-image: url("../img/CyberCityGif2.gif");
+    object-fit: cover;
+    color: white;
+    text-align: center;
+    height: 15vw;
+    text-decoration: solid;
+    display: flex;
+}
+
+.Titel{
+    margin:auto;
+    justify-content: center;
+}
+
+header img{
+    width: 100%;
+    object-fit: cover;
+}
+
+body{
+    background-color: rgb(50, 50, 50);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Sier{
+    background-image: url("../img/SterrenHemel.jpg");
+    object-fit: cover;
+    height: 100%;
+}
+
+.Core{
+    width: 80vw;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(50, 50, 50);
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    border: 10px solid black;
+    
+}
+
+nav a{
+    color: white;
+    background-color: rgb(80, 80, 80);
+    padding: 10px;
+    text-decoration: none;
+    
+}
+
+.Sier{
+    display: flex;
+}
+
+.Blok{
+    background-color: rgb(80, 80, 80);
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    width: auto;
+    border-radius: 10px;
+    
+}
+
+.Blok img{
+    width: 33%;
+    height: 100%;
+    padding: 10px;
+}
+
+.Text{
+    width: 33%;
+    text-align: center;
+    width: auto;
+}
+
+.RSimage img{
+    width: 100%
+}
+
+.Text h1{
+    font-size: 20px;
+}
+
+.Formulier{
+    background-color: gray;
+    color: black;
+    padding: 1vw;
+    margin: auto;
+}
+
+.Formulier div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+@media (max-width: 400px){
+    nav{
+        flex-direction: column;
+    }
+
+    .Blok{
+        flex-direction: column;
+    }
+    .Blok img{
+        width: 100%;
+    }
+    .Formulier{
+        flex-direction: column;
+        font-size: small;
+        width: 100%;
+    }
+    
+}
+
