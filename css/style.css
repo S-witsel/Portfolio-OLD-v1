@@ -87,6 +87,10 @@ nav a{
     font-size: 20px;
 }
 
+.Text a{
+    color: white;
+}
+
 .Formulier{
     background-color: gray;
     color: black;
@@ -99,6 +103,10 @@ nav a{
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+}
+
+.gameprototype img{
+    width: 10px;
 }
 
 @media (max-width: 400px){
